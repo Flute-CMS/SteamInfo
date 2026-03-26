@@ -20,12 +20,12 @@ class ProfileListener
             $steam32 = $steamXpaw->RenderSteam2();
             $steam64 = $steam->value;
 
-            template()->prependToSection('profile_banner_wrapper', render('steam-info::index', [
+            template()->prependTemplateToSection('profile_hero_info', 'steam-info::index', [
                 'steam' => $steam,
                 'steam3' => $steam3,
                 'steam32' => $steam32,
                 'steam64' => $steam64,
-            ]));
+            ]);
         }
     }
 }

@@ -7,6 +7,6 @@ return [
         'steam64' => 'Steam64 ID',
         'steam32' => 'Steam32 ID',
         'copy' => 'Копировать',
-        'copy_success' => 'Скопировано в буфер обмена'
-    ]
-]; 
+        'copy_success' => 'Скопировано в буфер обмена',
+    ],
+];

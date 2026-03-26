@@ -7,6 +7,6 @@ return [
         'steam64' => 'Steam64 ID',
         'steam32' => 'Steam32 ID',
         'copy' => 'Copy to clipboard',
-        'copy_success' => 'Copied to clipboard'
-    ]
-]; 
+        'copy_success' => 'Copied to clipboard',
+    ],
+];

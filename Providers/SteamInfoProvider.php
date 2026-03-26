@@ -10,7 +10,7 @@ class SteamInfoProvider extends ModuleServiceProvider
 {
     public array $extensions = [];
 
-    public function boot(\DI\Container $container) : void
+    public function boot(\DI\Container $container): void
     {
         $this->bootstrapModule();
 
@@ -21,7 +21,7 @@ class SteamInfoProvider extends ModuleServiceProvider
         events()->addListener(ProfileRenderEvent::NAME, [ProfileListener::class, 'handle']);
     }
 
-    public function register(\DI\Container $container) : void
+    public function register(\DI\Container $container): void
     {
     }
 }

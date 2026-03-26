@@ -8,7 +8,7 @@ Module that complements the profile of players who have linked their Steam infor
 
 Download the latest release and install it via the Flute CMS admin panel.
 
-Current version: **1.0.0**
+Current version: **1.0.1**
 
 ## Authors
 

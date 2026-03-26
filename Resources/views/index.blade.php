@@ -1,34 +1,31 @@
-<div class="steam-info">
-    <div class="steam-info-item">
-        <span class="steam-info-label">{{ __('steam-info.steam.steam3') }}</span>
-        <div class="steam-info-value">
-            <span class="steam-info-text" title="{{ $steam3 }}">{{ $steam3 }}</span>
-            <button class="steam-info-copy" onclick="copyToClipboard('{{ $steam3 }}');notyf.success('{{ __('steam-info.steam.copy_success') }}')" 
-                data-tooltip="{{ __('steam-info.steam.copy') }}">
-                <x-icon path="ph.regular.copy" />
-            </button>
+<div class="profile__ids" style="margin-top: var(--space-md)">
+    <button type="button" class="profile__id-copy"
+        data-copy="{{ $steam3 }}"
+        data-tooltip="{{ __('steam-info.steam.copy') }}">
+        <div>
+            <div class="profile__id-copy-label">{{ __('steam-info.steam.steam3') }}</div>
+            <div class="profile__id-copy-value">{{ $steam3 }}</div>
         </div>
-    </div>
+        <x-icon path="ph.regular.copy" class="profile__id-copy-icon" />
+    </button>
 
-    <div class="steam-info-item">
-        <span class="steam-info-label">{{ __('steam-info.steam.steam64') }}</span>
-        <div class="steam-info-value">
-            <span class="steam-info-text" title="{{ $steam64 }}">{{ $steam64 }}</span>
-            <button class="steam-info-copy" onclick="copyToClipboard('{{ $steam64 }}');notyf.success('{{ __('steam-info.steam.copy_success') }}')"
-                data-tooltip="{{ __('steam-info.steam.copy') }}">
-                <x-icon path="ph.regular.copy" />
-            </button>
+    <button type="button" class="profile__id-copy"
+        data-copy="{{ $steam64 }}"
+        data-tooltip="{{ __('steam-info.steam.copy') }}">
+        <div>
+            <div class="profile__id-copy-label">{{ __('steam-info.steam.steam64') }}</div>
+            <div class="profile__id-copy-value">{{ $steam64 }}</div>
         </div>
-    </div>
+        <x-icon path="ph.regular.copy" class="profile__id-copy-icon" />
+    </button>
 
-    <div class="steam-info-item">
-        <span class="steam-info-label">{{ __('steam-info.steam.steam32') }}</span>
-        <div class="steam-info-value">
-            <span class="steam-info-text" title="{{ $steam32 }}">{{ $steam32 }}</span>
-            <button class="steam-info-copy" onclick="copyToClipboard('{{ $steam32 }}');notyf.success('{{ __('steam-info.steam.copy_success') }}')"
-                data-tooltip="{{ __('steam-info.steam.copy') }}">
-                <x-icon path="ph.regular.copy" />
-            </button>
+    <button type="button" class="profile__id-copy"
+        data-copy="{{ $steam32 }}"
+        data-tooltip="{{ __('steam-info.steam.copy') }}">
+        <div>
+            <div class="profile__id-copy-label">{{ __('steam-info.steam.steam32') }}</div>
+            <div class="profile__id-copy-value">{{ $steam32 }}</div>
         </div>
-    </div>
+        <x-icon path="ph.regular.copy" class="profile__id-copy-icon" />
+    </button>
 </div>
